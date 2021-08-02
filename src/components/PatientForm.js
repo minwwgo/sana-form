@@ -108,7 +108,7 @@ export const PatientForm = ({ setPatientList }) => {
           options={options}
         />
       </Form.Item>
-      <Form.Item label="Medical Conditions">
+      <Form.Item label="Medications">
         <Select
           mode="multiple"
           showArrow

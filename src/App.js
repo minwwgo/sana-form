@@ -1,20 +1,8 @@
-import React, { useState } from 'react'
-import { PatientDetails } from './PatientDetails';
-import { PatientForm } from './PatientForm'
+import React from "react";
+
+import Homepage from "./components/Homepage";
 function App() {
-  const [patientList, setPatientList] = useState("");
-  
-  
-  
-  return (
-    <div>
-      Sana-tech
-      <div className="app">
-        <PatientForm setPatientList={setPatientList} />
-        {patientList&& <PatientDetails patientList={patientList} />}
-      </div>
-    </div>
-  );
+  return <Homepage />;
 }
 
 export default App;
