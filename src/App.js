@@ -3,6 +3,9 @@ import { PatientDetails } from './PatientDetails';
 import { PatientForm } from './PatientForm'
 function App() {
   const [patientList, setPatientList] = useState("");
+  
+  
+  
   return (
     <div>
       Sana-tech
