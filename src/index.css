@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.patient {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height:100%;
+  margin:2rem;
+}
+
+.input{
+  display:flex;
+}
+.app{
+   display:flex;
+   flex-direction: column; 
+}
