@@ -15,6 +15,33 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script>
+      !(function () {
+        const n = window,
+          i = '__REACT_DEVTOOLS_GLOBAL_HOOK__',
+          o = '__PlasmicPreambleVersion',
+          t = function () { };
+        if (void 0 !== n) {
+          if (n.parent !== n)
+            try {
+              n[i] = n.parent[i];
+            } catch (e) { }
+          if (!n[i]) {
+            const r = new Map();
+            n[i] = {
+              supportsFiber: !0,
+              renderers: r,
+              inject: function (n) {
+                r.set(r.size + 1, n);
+              },
+              onCommitFiberRoot: t,
+              onCommitFiberUnmount: t
+            };
+          }
+          n[i][o] || (n[i][o] = '1');
+        }
+      })();
+    </script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -27,6 +54,7 @@
     <title>React App</title>
   </head>
   <body>
+    
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

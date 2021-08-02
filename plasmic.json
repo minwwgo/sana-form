@@ -1,0 +1,75 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "3BwSAKmzKZAWesPKzvAS1a",
+      "projectName": "sana",
+      "version": "latest",
+      "cssFilePath": "plasmic/sana/plasmic_sana.module.css",
+      "components": [
+        {
+          "id": "Ji_LDnvaopZM",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "3BwSAKmzKZAWesPKzvAS1a",
+          "renderModuleFilePath": "plasmic/sana/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/sana/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "0LevCU4qTT",
+          "name": "MyApp",
+          "type": "managed",
+          "projectId": "3BwSAKmzKZAWesPKzvAS1a",
+          "renderModuleFilePath": "plasmic/sana/PlasmicMyApp.jsx",
+          "importSpec": {
+            "modulePath": "MyApp.jsx"
+          },
+          "cssFilePath": "plasmic/sana/PlasmicMyApp.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "codeComponents": [],
+      "projectApiToken": "VmqUKxHV0k0N322i9n3mjWPvebspOXRm8TtdKnafUcNmYuhxzlZhdzvmtaXxhSdMXNmYEd1olmWoJ8Oz0Q"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Uixi-vnajJep",
+        "name": "Screen",
+        "projectId": "3BwSAKmzKZAWesPKzvAS1a",
+        "contextFilePath": "plasmic/sana/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.158",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.158/dist/plasmic.schema.json"
+}
